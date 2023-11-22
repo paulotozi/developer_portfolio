@@ -39,7 +39,7 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/paulo.tozi.5",
   medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   instagram: "https://www.instagram.com/poro_fozzi/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -131,7 +131,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -222,59 +222,73 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certificados 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certificados que realizei nestes últimos anon!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Python Basics",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Curso de introdução sobre Python.",
+      image: require("./assets/images/Umich.png"),
+      imageAlt: "Python Basics",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://coursera.org/verify/PLNXUZYR4F4X"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Python Functions, Files, and Dictionaries",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Curso sobre ferramentas básicas de Python.",
+      image: require("./assets/images/Umich.png"),
+      imageAlt: "Python Functions, Files, and Dictionaries",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://coursera.org/verify/GWY2YF2QEJR4"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Python Classes and Inheritance",
+      subtitle: "Curso que eu aprendi sobre programação orientada a objetos",
+      image: require("./assets/images/Umich.png"),
+      imageAlt: "Python Classes and Inheritance",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+          name: "Certification", 
+          url: "https://coursera.org/verify/BFC82MSJM3NU"}
       ]
-    }
+    },
+
+    {
+      title: "Data Collection and Processing with Python",
+      subtitle: "Minha introdução à área de Dados!",
+      image: require("./assets/images/Umich.png"),
+      imageAlt: "Data Collection and Processing with Python",
+      footerLink: [
+        {
+          name: "Certification", 
+          url: "https://coursera.org/verify/KSFBF8FBN6E4"}
+      ]
+    },
+
+    {
+      title: "SQL for Data Science",
+      subtitle: "Curso de introdução à SQL!",
+      image: require("./assets/images/UCDavis.png"),
+      imageAlt: "SQL for Data Science",
+      footerLink: [
+        {
+          name: "Certification", 
+          url: "https://coursera.org/verify/5V4QG6LSVNV7"}
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -300,7 +314,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -319,7 +333,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -332,22 +346,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Entre em contato ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Me mende uma mensagem case se interesse para participar de algum projeto ou entrevista!.",
+  number: "+55 (11) 95305-0150",
+  email_address: "paulotozi1512@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
